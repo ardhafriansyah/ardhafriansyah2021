@@ -1,11 +1,21 @@
 body {
     height: auto;
 }
-.jumbotron {
-    padding-top: 2rem ;
-    background-color:rgb(91, 209, 209);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+/* #konten1*/
+
+.jumbotron2 {
+  padding-top: 4rem ;
+  background-color: rgb(91, 209, 209);
+  font-family: monospace;
+  color: #fff;
 }
+
+/* jumbotron2 */
+.utama1 {
+  color:red;
+}
+
 
 .col {
     padding-bottom: 2rem;
@@ -116,7 +126,7 @@ body {
     margin-bottom:0;
   }
 
-  /* konten website */
+  /* #konten1 website */
   .kontenwebsite {
 height: auto;
   }
@@ -124,7 +134,7 @@ height: auto;
 
 
 
- /* bagian footer penutup kontenwebsite serbaguna */
+ /* bagian footer penutup #konten1 */
  .footer-dark {
   padding: 4rem;
   color:#f0f9ff;
@@ -216,11 +226,15 @@ height: auto;
   margin-bottom:0;
 }
 
-/* konten website serbaguna */
-.jumbotron2 {
+/* #konten1 */
+
+.jumbotron {
   padding-top: 2rem ;
-  background-color: rgb(91, 209, 209);
+  background-color:rgb(91, 209, 209);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
 .judulkonten {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-align: center;
@@ -240,7 +254,7 @@ padding-top: 2rem;
   background-color: #a2d9ff;
   font-family: sans-serif;
   text-align: center;
-  font-family: cursive;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
@@ -257,5 +271,5 @@ padding-top: 2rem;
 
 .penjelasanpomodoro {
   text-align: center;
-  font-family: cursive;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
