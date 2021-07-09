@@ -50,6 +50,7 @@ body {
 .konten2 {
     padding-top: 2rem;
     color: white;
+    padding-bottom: 2rem;
 }
 
 .card {
@@ -238,11 +239,14 @@ height: auto;
 .judulkonten {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-align: center;
-padding-top: 2rem;
+padding-bottom: 2rem;
+padding-top: 4rem;
+
 }
 .dropdown {
   padding-top: 2rem;
 }
+
 
 .pendahuluankonten {
   padding-top: 2rem;
@@ -312,6 +316,12 @@ font-family: 'Roboto Condensed', sans-serif;
  }
 
 .jasabuatwebsite {
-  background-color:#a2d9ff ;
+  background-color:rgb(91, 209, 209);
   padding-bottom: 1rem;
+}
+
+.iklan {
+  padding-top: 2rem;
+  background-color: darkseagreen;
+  padding-bottom: 2rem;
 }
