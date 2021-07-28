@@ -18,7 +18,7 @@ body {
 
 .jumbotron2 {
   padding-top: 2rem ;
-  background-color: rgb(91, 209, 209);
+  background-color: black;
   font-family: monospace;
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
@@ -32,14 +32,14 @@ body {
 
 
 #konten01 {
-    background-color:darkgrey;
+    background-color:white;
     color:white;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 .tulisankonten {
-  background-color:darkgrey;
+  background-color:white;
   color:darkslateblue
 }
 
@@ -301,15 +301,14 @@ padding-top: 4rem;
 .fixed-whatsapp:after{content:"Hallo kakak, Chat Saya Disini ya Jika ada pertanyaan";width:100px;padding:5px 10px;position:absolute;bottom:100%;margin-bottom:10px;right:-150px;text-align:right;color:#555;border:1px solid #dedede;background:rgba(255,255,255,.5);border-radius:4px;opacity:0;transition:all .4s ease-in-out;font-size:90%;line-height:1.1}
 .fixed-whatsapp:hover:after{opacity:1;right:0}
 
-/* penjelasan website banyakngulik */
+/* penjelasan website banyakngulik
 .penjelasanbanyakngulik {
-  background-color: darkslateblue;
-  color: #fff;
+	background-image: url(img/bg-1.jpg);  color: #fff;
   padding-bottom: 150px;
   padding-top: 2rem;
   padding-left: 1rem;
   font-family: 'Roboto', sans-serif;
-}
+} */
 
 /* about me html <google font> */
 .informasidiri {
