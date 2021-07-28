@@ -17,12 +17,12 @@ body {
 /* #konten1*/
 
 .jumbotron2 {
-  padding-top: 4rem ;
+  padding-top: 2rem ;
   background-color: rgb(91, 209, 209);
   font-family: monospace;
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
-  padding-bottom: 2rem;
+  
 }
 
 /* jumbotron2 */
@@ -32,30 +32,34 @@ body {
 
 
 #konten01 {
-    background-color: tomato;
+    background-color:darkgrey;
     color:white;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 .tulisankonten {
-  background-color:tomato;
+  background-color:darkgrey;
+  color:darkslateblue
 }
 
 .konten1 {
   padding-top: 2rem;
-  color: white;
+  color: black;
 }
 
 .konten2 {
-    padding-top: 2rem;
-    color: white;
+    /* padding-top: 2rem; */
+    color: black;
     padding-bottom: 2rem;
 }
 
 .card {
-  background-color: black;
-  padding-top: 1rem;
+  background-color: white;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 4rem;
 }
 
 .kirimpesan {
@@ -313,17 +317,58 @@ padding-top: 4rem;
   font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
+
  }
 
-.jasabuatwebsite {
-  background-color:rgb(91, 209, 209);
-  padding-bottom: 1rem;
-}
 
-.iklan {
-  padding-top: 2rem;
-  background-color: darkseagreen;
-  padding-bottom: 2rem;
-}
 
 /* iklan */
+
+
+
+
+
+/* 6 Home
+----------------------------------------------------------------------------- */
+.main-home {
+	padding: 330px 0px 250px 0;
+	z-index: 1;
+	text-align: center;
+	position: relative;
+	font-size: 13px;
+	color: #fff;
+	background: #000;
+	min-height: 400px;
+}
+.home-page-photo {
+	background-image: url(img/bg-1.jpg);
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	opacity: 0.50;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.home__header-content {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+.home__header-content h1{
+	font-family: 'Kameron', serif;
+}
+.home__header-content p{
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.home__header-content a.btn-default {
+	margin-top: 15px;
+}
