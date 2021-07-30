@@ -14,6 +14,9 @@ body {
 
 
 
+
+
+
 /* #konten1*/
 
 .jumbotron2 {
@@ -247,16 +250,17 @@ padding-bottom: 2rem;
 padding-top: 4rem;
 
 }
+
+.materikonten1{
+  
+
+}
+
 .dropdown {
   padding-top: 2rem;
 }
 
 
-.pendahuluankonten {
-  padding-top: 2rem;
-  text-align: center;
-  padding-bottom: 2rem;
-}
 
 .tujuanbelajar {
   background-color: #a2d9ff;
@@ -266,22 +270,8 @@ padding-top: 4rem;
 
 }
 
-.lifehack {
-  padding-top: 2rem;
-  text-align: center;
-  padding-bottom: 4rem;
-}
 
 
-/* pomodoro video */
-.pomodoro {
-  text-align: center;
-}
-
-.penjelasanpomodoro {
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 
 /* projek.html */
