@@ -57,6 +57,13 @@ body {
     padding-bottom: 2rem;
 }
 
+.konten3 {
+  /* padding-top: 2rem; */
+  color: black;
+  padding-bottom: 2rem;
+}
+
+
 .card {
   background-color: white;
   padding-bottom: 2rem;
@@ -251,10 +258,7 @@ padding-top: 4rem;
 
 }
 
-.materikonten1{
   
-
-}
 
 .dropdown {
   padding-top: 2rem;
@@ -360,4 +364,13 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 .home__header-content a.btn-default {
 	margin-top: 15px;
+}
+
+/* pengenalan web index.html */
+#pengenalanweb1 {
+  color:darkslategray;
+
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
