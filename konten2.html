@@ -19,8 +19,45 @@
     <!-- logo/icon -->
     <link rel="icon" href="img/faviconwebsitengulik.ico">
 
+          <!-- preloading -->
+          <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+          <style type="text/css">
+            .preloader {
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              z-index: 9999;
+              background-color: #fff;
+            }
+            .preloader .loading {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%,-50%);
+              font: 14px arial;
+            }
+            </style>
+    
+    <script>
+      $(document).ready(function(){
+      $(".preloader").fadeOut();
+      })
+      </script>
+    
+    
+
   </head>
   <body>
+
+         <!--preloading  -->
+  <div class="preloader">
+    <div class="loading">
+      <img src="img/gelombang.gif " width="80">
+      <p></p>
+    </div>
+  </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark "
     style="background-color:#00CBA9; text-align: center;">
@@ -69,8 +106,12 @@
       <h2>  Management Waktu</h2>
   </div>
 
+  <center>  	<img src="img/konten/konten4.jpg" class="img-responsive"  alt="Gambar malas ngoding" width="350" height="236" style="padding-bottom: 2rem;">
+  </center>
+
+
   <div class="materikonten1" >
-    <h3 style="padding-left: 1rem;">Definisi</h2>
+    <h3 style="padding-left: 1rem;">Definis</h2>
       <p style="padding-left: 2rem;">Manajemen Waktu adalah proses pengendalian waktu berdasarkan suatu rangkaian kegiatan yang telah direncanakan dan telah dipertimbangkan berdasarkan kemungkinan-kemungkinan yang kemudian harus dilakukan pengontrolan dalam prosesnya agar maksimal.</p>
 
       <h3 style="padding-top: 1rem; padding-left: 1rem;">Prinsip </h2>
